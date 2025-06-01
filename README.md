@@ -1,12 +1,51 @@
-# React + Vite
+# 📝 Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive blog platform where users can explore posts, create their own blogs, like posts, and manage their content. Built using modern web technologies and hosted on AWS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit the Website](https://main.d1516rivwtp47g.amplifyapp.com/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- ⚛️ React.js
+- 🌐 HTML5, CSS3, JavaScript (ES6+)
+- 🎨 Tailwind CSS / Bootstrap (optional, depending on what you're using)
+- 🌍 AWS S3 (for static website hosting)
+
+### Backend *(Optional, if implemented)*
+- 🟢 Node.js + Express.js
+- 🗃️ MongoDB + Mongoose
+- 🔐 JWT Authentication
+- 📩 Nodemailer (for OTP-based blog deletion)
+
+---
+
+## ✨ Features
+
+- ✅ User Authentication (JWT-based)
+- 📝 Create, Read, Update, and Delete (CRUD) Blogs
+- ❤️ Like Blog Posts
+- 🖼️ Upload & Manage Profile Pictures
+- 🔐 Delete blogs with OTP sent via email
+- 📄 Paginated Blog Listing (8 per page)
+- 📱 Fully Responsive UI
+
+---
+
+## 📁 Project Structure
+
+```bash
+📦 blog-frontend
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── .env
+└── package.json
