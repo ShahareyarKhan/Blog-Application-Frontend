@@ -20,7 +20,7 @@ A fully responsive blog platform where users can explore posts, create their own
 - 🟢 Node.js + Express.js
 - 🗃️ MongoDB + Mongoose
 - 🔐 JWT Authentication
-- 📩 Nodemailer (for OTP-based blog deletion)
+- Multer
 
 ---
 
@@ -28,10 +28,9 @@ A fully responsive blog platform where users can explore posts, create their own
 
 - ✅ User Authentication (JWT-based)
 - 📝 Create, Read, Update, and Delete (CRUD) Blogs
-- ❤️ Like Blog Posts
+- ❤️ Like, dislike Blog Posts
 - 🖼️ Upload & Manage Profile Pictures
-- 🔐 Delete blogs with OTP sent via email
-- 📄 Paginated Blog Listing (8 per page)
+- 🔐 Delete blogs 
 - 📱 Fully Responsive UI
 
 ---
